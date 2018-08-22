@@ -28,7 +28,7 @@ public class Newsletterpage extends TestBase {
 	
 public void Checkboxselected() 
 {
-	if(!newslettercheckbox.isSelected())
+	if(newslettercheckbox.isSelected())
 	{
 		newslettercheckbox.click();
 		savecta.click();
