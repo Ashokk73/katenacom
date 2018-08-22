@@ -21,7 +21,7 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream FI = new FileInputStream("D:\\Selenium-Projects\\POM-Framework\\katenaecom\\src\\main\\java\\com\\katena\\qa\\config\\config.properties");
+			FileInputStream FI = new FileInputStream("D:\\Selenium-Projects\\POM-Framework\\katenacom\\src\\main\\java\\com\\katena\\qa\\config\\config.properties");
 //					.getProperty("User.dir")+"/katenaecom/src/main/java/com/katena/qa/config/config.properties");
 			prop.load(FI);
 		} catch(FileNotFoundException e) {e.printStackTrace();}

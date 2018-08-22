@@ -85,9 +85,9 @@ public class Homepage extends TestBase {
 		return driver.getTitle();
 	}
 	
-	public String Newslettersubscription() {
+	public Newsletterpage Newslettersubscription() {
 		newslettersubscription.click();
-		return driver.getTitle();
+		return new Newsletterpage();
 	}
 	
 	public String Myreturns() {

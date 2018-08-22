@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import com.katena.qa.base.TestBase;
 import com.katena.qa.pages.Homepage;
 import com.katena.qa.pages.Loginpage;
+import com.katena.qa.pages.Newsletterpage;
 import com.katena.qa.util.TestUtil;
 
 public class MyAccountPageTest extends TestBase {
@@ -74,7 +75,7 @@ public class MyAccountPageTest extends TestBase {
 	
 	@Test(priority=8)
 	public void NewslettersubscriptionTest() {
-		String Newsltrsubspagetitle = homepage.Newslettersubscription();
+		Newsletterpage Newsltrsubspagetitle = homepage.Newslettersubscription();
 		Assert.assertEquals(Newsltrsubspagetitle, "Newsletter Subscription");
 	}
 	
