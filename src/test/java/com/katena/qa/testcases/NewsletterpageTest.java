@@ -38,13 +38,13 @@ public class NewsletterpageTest extends TestBase{
 		homepage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
-	@Test
+	@Test(priority=3)
 	public void ClickonNewletterTest()
 	{
 		homepage.Newslettersubscription();
 	}
 	
-	@Test
+	@Test(priority=2)
 	public void BannerTextValidateTest() 
 	{
 		homepage.Newslettersubscription();
@@ -52,7 +52,7 @@ public class NewsletterpageTest extends TestBase{
 		Assert.assertEquals(bannertitle, "Newsletter Subscription");
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void CheckboxTest() throws InterruptedException
 	{
 		newsletterpage = new Newsletterpage();
@@ -61,18 +61,17 @@ public class NewsletterpageTest extends TestBase{
 		newsletterpage.Checkbox();
 		newsletterpage.Savecta();
 		Thread.sleep(3000);
-		newsletterpage.Alertmsg();		
-		String Expectedsubmsg = "We saved the subscription.";
-		String Expectedunsubmsg = "We removed the subscription.";
-		boolean aSub = newsletterpage.Alertmsg().contains(Expectedsubmsg);
-		boolean aUnsub = newsletterpage.Alertunsubmsg().contains(Expectedunsubmsg);
+		newsletterpage.Alertmsg();	
+		testutil = new TestUtil();
+		boolean aSub = newsletterpage.Alertmsg().contains(TestUtil.Expectedsubmsg);
+		boolean aUnsub = newsletterpage.Alertunsubmsg().contains(TestUtil.Expectedunsubmsg);
 		if(aSub) 
 		{
 			System.out.println("Newsletter Subscription suceessfully");
 		}
 		else if(aUnsub)
 		{
-			System.out.println("Newsletter unSubscribed suceessfully");
+			System.out.println("Newsletter Unsubscribed suceessfully");
 		}
 	}
 	
