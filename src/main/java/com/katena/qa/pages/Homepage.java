@@ -51,7 +51,7 @@ public class Homepage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public String Bannertile() 
+	public String Bannertitle() 
 	{
 		return bannertext.getText();
 	}

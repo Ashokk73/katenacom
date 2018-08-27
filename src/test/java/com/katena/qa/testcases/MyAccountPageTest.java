@@ -34,7 +34,7 @@ public class MyAccountPageTest extends TestBase {
 	@Test(priority=1)
 	public void BannerTextValidateTest() 
 	{
-		String bannertitle = homepage.Bannertile();
+		String bannertitle = homepage.Bannertitle();
 		Assert.assertEquals(bannertitle, "My Account");
 	}
 	@Test(priority=2)

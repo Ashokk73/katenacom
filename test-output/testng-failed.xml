@@ -6,8 +6,8 @@
       <class name="com.katena.qa.testcases.NewsletterpageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="CheckboxselectedTest"/>
           <include name="Setup"/>
+          <include name="CheckboxTest"/>
         </methods>
       </class> <!-- com.katena.qa.testcases.NewsletterpageTest -->
     </classes>
