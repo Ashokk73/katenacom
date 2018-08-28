@@ -1,0 +1,4 @@
+com\katena\qa\testcases\NewsletterpageTest.class
+com\katena\qa\testcases\LoginPageTest.class
+com\katena\qa\testcases\MyAccountPageTest.class
+com\katena\qa\testcases\RegisterPage.class

@@ -1,0 +1,7 @@
+com\katena\qa\base\TestBase.class
+com\katena\qa\pages\Homepage.class
+com\katena\qa\pages\Changepasswordpage.class
+com\katena\qa\util\TestUtil.class
+com\katena\qa\pages\Forgotpassword.class
+com\katena\qa\pages\Loginpage.class
+com\katena\qa\pages\Newsletterpage.class

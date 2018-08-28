@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59739" started-at="2018-08-28T05:47:28Z" finished-at="2018-08-28T05:48:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="59739" started-at="2018-08-28T05:47:28Z" finished-at="2018-08-28T05:48:28Z">
+      <class name="com.katena.qa.testcases.MyAccountPageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.katena.qa.testcases.MyAccountPageTest@4909b8da]" name="Setup" is-config="true" duration-ms="18628" started-at="2018-08-28T05:47:29Z" finished-at="2018-08-28T05:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="BannerTextValidateTest()[pri:1, instance:com.katena.qa.testcases.MyAccountPageTest@4909b8da]" name="BannerTextValidateTest" duration-ms="41" started-at="2018-08-28T05:47:47Z" finished-at="2018-08-28T05:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BannerTextValidateTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.MyAccountPageTest@4909b8da]" name="tearDown" is-config="true" duration-ms="440" started-at="2018-08-28T05:47:47Z" finished-at="2018-08-28T05:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.katena.qa.testcases.MyAccountPageTest -->
+      <class name="com.katena.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.katena.qa.testcases.LoginPageTest@2d3fcdbd]" name="setup" is-config="true" duration-ms="9104" started-at="2018-08-28T05:48:16Z" finished-at="2018-08-28T05:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginpagetitleTest()[pri:1, instance:com.katena.qa.testcases.LoginPageTest@2d3fcdbd]" name="loginpagetitleTest" duration-ms="2822" started-at="2018-08-28T05:48:25Z" finished-at="2018-08-28T05:48:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.LoginPageTest@2d3fcdbd]" name="tearDown" is-config="true" duration-ms="391" started-at="2018-08-28T05:48:28Z" finished-at="2018-08-28T05:48:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.katena.qa.testcases.LoginPageTest -->
+      <class name="com.katena.qa.testcases.NewsletterpageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.katena.qa.testcases.NewsletterpageTest@3a03464]" name="Setup" is-config="true" duration-ms="16693" started-at="2018-08-28T05:47:48Z" finished-at="2018-08-28T05:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="CheckboxTest()[pri:1, instance:com.katena.qa.testcases.NewsletterpageTest@3a03464]" name="CheckboxTest" duration-ms="11115" started-at="2018-08-28T05:48:04Z" finished-at="2018-08-28T05:48:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckboxTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.NewsletterpageTest@3a03464]" name="tearDown" is-config="true" duration-ms="477" started-at="2018-08-28T05:48:15Z" finished-at="2018-08-28T05:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.katena.qa.testcases.NewsletterpageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

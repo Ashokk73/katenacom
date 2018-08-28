@@ -62,7 +62,6 @@ public class NewsletterpageTest extends TestBase{
 		newsletterpage.Savecta();
 		Thread.sleep(3000);
 		newsletterpage.Alertmsg();	
-		testutil = new TestUtil();
 		boolean aSub = newsletterpage.Alertmsg().contains(TestUtil.Expectedsubmsg);
 		boolean aUnsub = newsletterpage.Alertunsubmsg().contains(TestUtil.Expectedunsubmsg);
 		if(aSub) 
