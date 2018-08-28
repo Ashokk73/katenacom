@@ -31,13 +31,13 @@ public class TestBase {
 	{
 		String browsername = prop.getProperty("browser");
 		if(browsername.equals("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "D:\\Ashok-Data\\Ashok\\Data\\Testing\\chromedriver_win32-1\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 //					"D:\\Ashok-Data\\Ashok\\Data\\Testing\\chromedriver_win32\\chromedriver.exe");
 			
 			driver = new ChromeDriver();
 		}
 		else if(browsername.equals("Firefox")) {
-			System.setProperty("webdriver.firefox.marionette", "D:\\Ashok-Data\\Ashok\\Data\\Testing\\Java Tutorial\\G\\Firefox\\geckodriver-v0.18.0-win64.exe");
+			System.setProperty("webdriver.firefox.marionette", "./drivers/geckodriver.exe");
 			System.setProperty("webdriver.firefox.bin", "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe");
 			driver = new FirefoxDriver();
 		}

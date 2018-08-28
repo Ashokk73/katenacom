@@ -6,5 +6,4 @@ public class TestUtil {
 	public static long Implicit_Wait = 10;
 	public static String Expectedsubmsg = "We saved the subscription.";
 	public static String Expectedunsubmsg = "We removed the subscription.";
-	
 }
