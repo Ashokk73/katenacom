@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="53075" started-at="2018-09-05T09:25:36Z" finished-at="2018-09-05T09:26:29Z">
+  <suite name="Suite" duration-ms="60654" started-at="2018-09-05T10:08:14Z" finished-at="2018-09-05T10:09:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="53075" started-at="2018-09-05T09:25:36Z" finished-at="2018-09-05T09:26:29Z">
+    <test name="Test" duration-ms="60654" started-at="2018-09-05T10:08:14Z" finished-at="2018-09-05T10:09:15Z">
       <class name="com.katena.qa.testcases.MyAccountPageTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.katena.qa.testcases.MyAccountPageTest@4909b8da]" name="Setup" is-config="true" duration-ms="17693" started-at="2018-09-05T09:25:36Z" finished-at="2018-09-05T09:25:54Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.katena.qa.testcases.MyAccountPageTest@4909b8da]" name="Setup" is-config="true" duration-ms="21490" started-at="2018-09-05T10:08:14Z" finished-at="2018-09-05T10:08:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="BannerTextValidateTest()[pri:1, instance:com.katena.qa.testcases.MyAccountPageTest@4909b8da]" name="BannerTextValidateTest" duration-ms="57" started-at="2018-09-05T09:25:54Z" finished-at="2018-09-05T09:25:54Z">
+        <test-method status="PASS" signature="BannerTextValidateTest()[pri:1, instance:com.katena.qa.testcases.MyAccountPageTest@4909b8da]" name="BannerTextValidateTest" duration-ms="61" started-at="2018-09-05T10:08:36Z" finished-at="2018-09-05T10:08:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BannerTextValidateTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.MyAccountPageTest@4909b8da]" name="tearDown" is-config="true" duration-ms="451" started-at="2018-09-05T09:25:54Z" finished-at="2018-09-05T09:25:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.MyAccountPageTest@4909b8da]" name="tearDown" is-config="true" duration-ms="871" started-at="2018-09-05T10:08:36Z" finished-at="2018-09-05T10:08:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.katena.qa.testcases.MyAccountPageTest -->
       <class name="com.katena.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.katena.qa.testcases.LoginPageTest@2d3fcdbd]" name="setup" is-config="true" duration-ms="10482" started-at="2018-09-05T09:26:18Z" finished-at="2018-09-05T09:26:29Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.katena.qa.testcases.LoginPageTest@2d3fcdbd]" name="setup" is-config="true" duration-ms="11762" started-at="2018-09-05T10:09:02Z" finished-at="2018-09-05T10:09:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginpagetitleTest()[pri:1, instance:com.katena.qa.testcases.LoginPageTest@2d3fcdbd]" name="loginpagetitleTest" duration-ms="16" started-at="2018-09-05T09:26:29Z" finished-at="2018-09-05T09:26:29Z">
+        <test-method status="PASS" signature="loginpagetitleTest()[pri:1, instance:com.katena.qa.testcases.LoginPageTest@2d3fcdbd]" name="loginpagetitleTest" duration-ms="36" started-at="2018-09-05T10:09:14Z" finished-at="2018-09-05T10:09:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpagetitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.LoginPageTest@2d3fcdbd]" name="tearDown" is-config="true" duration-ms="468" started-at="2018-09-05T09:26:29Z" finished-at="2018-09-05T09:26:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.LoginPageTest@2d3fcdbd]" name="tearDown" is-config="true" duration-ms="742" started-at="2018-09-05T10:09:14Z" finished-at="2018-09-05T10:09:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.katena.qa.testcases.LoginPageTest -->
       <class name="com.katena.qa.testcases.NewsletterpageTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.katena.qa.testcases.NewsletterpageTest@3a03464]" name="Setup" is-config="true" duration-ms="13835" started-at="2018-09-05T09:25:54Z" finished-at="2018-09-05T09:26:08Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.katena.qa.testcases.NewsletterpageTest@3a03464]" name="Setup" is-config="true" duration-ms="15402" started-at="2018-09-05T10:08:36Z" finished-at="2018-09-05T10:08:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="CheckboxTest()[pri:1, instance:com.katena.qa.testcases.NewsletterpageTest@3a03464]" name="CheckboxTest" duration-ms="9606" started-at="2018-09-05T09:26:08Z" finished-at="2018-09-05T09:26:18Z">
+        <test-method status="PASS" signature="CheckboxTest()[pri:1, instance:com.katena.qa.testcases.NewsletterpageTest@3a03464]" name="CheckboxTest" duration-ms="9569" started-at="2018-09-05T10:08:52Z" finished-at="2018-09-05T10:09:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckboxTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.NewsletterpageTest@3a03464]" name="tearDown" is-config="true" duration-ms="437" started-at="2018-09-05T09:26:18Z" finished-at="2018-09-05T09:26:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.NewsletterpageTest@3a03464]" name="tearDown" is-config="true" duration-ms="685" started-at="2018-09-05T10:09:01Z" finished-at="2018-09-05T10:09:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
