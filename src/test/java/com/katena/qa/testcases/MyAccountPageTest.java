@@ -29,6 +29,7 @@ public class MyAccountPageTest extends TestBase {
 		testutil = new TestUtil();
 		loginpage = new Loginpage();
 		homepage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
+		System.out.println("We are in My Account Page");
 	}
 	
 	@Test(priority=1)

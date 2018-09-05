@@ -26,6 +26,7 @@ public class LoginPageTest extends TestBase {
 	{
 		initialization();
 		loginpage = new Loginpage();
+		System.out.println("We are in Login Page");
 	}
 	
 	@Test(priority=1)
