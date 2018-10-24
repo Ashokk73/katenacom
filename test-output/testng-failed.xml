@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.katena.qa.testcases.NewsletterpageTest">
+      <class name="com.katena.qa.testcases.AddressbookpageTest">
         <methods>
-          <include name="tearDown"/>
           <include name="Setup"/>
-          <include name="CheckboxTest"/>
+          <include name="Verifypagebannertest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.katena.qa.testcases.NewsletterpageTest -->
+      </class> <!-- com.katena.qa.testcases.AddressbookpageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,53 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="69421" started-at="2018-08-28T05:41:41Z" finished-at="2018-08-28T05:42:51Z">
+  <suite name="Default suite" duration-ms="38376" started-at="2018-09-05T13:19:58Z" finished-at="2018-09-05T13:20:36Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="69421" started-at="2018-08-28T05:41:41Z" finished-at="2018-08-28T05:42:51Z">
-      <class name="com.katena.qa.testcases.MyAccountPageTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.katena.qa.testcases.MyAccountPageTest@59f99ea]" name="Setup" is-config="true" duration-ms="22098" started-at="2018-08-28T05:41:41Z" finished-at="2018-08-28T05:42:03Z">
+    <test name="Default test" duration-ms="38376" started-at="2018-09-05T13:19:58Z" finished-at="2018-09-05T13:20:36Z">
+      <class name="com.katena.qa.testcases.AddressbookpageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.katena.qa.testcases.AddressbookpageTest@ae45eb6]" name="Setup" is-config="true" duration-ms="17068" started-at="2018-09-05T13:19:58Z" finished-at="2018-09-05T13:20:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="BannerTextValidateTest()[pri:1, instance:com.katena.qa.testcases.MyAccountPageTest@59f99ea]" name="BannerTextValidateTest" duration-ms="66" started-at="2018-08-28T05:42:03Z" finished-at="2018-08-28T05:42:03Z">
+        <test-method status="PASS" signature="Verifypagebannertest()[pri:0, instance:com.katena.qa.testcases.AddressbookpageTest@ae45eb6]" name="Verifypagebannertest" duration-ms="2682" started-at="2018-09-05T13:20:15Z" finished-at="2018-09-05T13:20:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BannerTextValidateTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.MyAccountPageTest@59f99ea]" name="tearDown" is-config="true" duration-ms="387" started-at="2018-08-28T05:42:03Z" finished-at="2018-08-28T05:42:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.katena.qa.testcases.MyAccountPageTest -->
-      <class name="com.katena.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.katena.qa.testcases.LoginPageTest@6f7fd0e6]" name="setup" is-config="true" duration-ms="11644" started-at="2018-08-28T05:42:35Z" finished-at="2018-08-28T05:42:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginpagetitleTest()[pri:1, instance:com.katena.qa.testcases.LoginPageTest@6f7fd0e6]" name="loginpagetitleTest" duration-ms="3106" started-at="2018-08-28T05:42:47Z" finished-at="2018-08-28T05:42:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginpagetitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.LoginPageTest@6f7fd0e6]" name="tearDown" is-config="true" duration-ms="378" started-at="2018-08-28T05:42:50Z" finished-at="2018-08-28T05:42:51Z">
+        </test-method> <!-- Verifypagebannertest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.AddressbookpageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="466" started-at="2018-09-05T13:20:17Z" finished-at="2018-09-05T13:20:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.katena.qa.testcases.LoginPageTest -->
-      <class name="com.katena.qa.testcases.NewsletterpageTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.katena.qa.testcases.NewsletterpageTest@27efef64]" name="Setup" is-config="true" duration-ms="20041" started-at="2018-08-28T05:42:04Z" finished-at="2018-08-28T05:42:24Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.katena.qa.testcases.AddressbookpageTest@ae45eb6]" name="Setup" is-config="true" duration-ms="15156" started-at="2018-09-05T13:20:18Z" finished-at="2018-09-05T13:20:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="CheckboxTest()[pri:1, instance:com.katena.qa.testcases.NewsletterpageTest@27efef64]" name="CheckboxTest" duration-ms="11216" started-at="2018-08-28T05:42:24Z" finished-at="2018-08-28T05:42:35Z">
+        <test-method status="PASS" signature="Verifypagetitletest()[pri:0, instance:com.katena.qa.testcases.AddressbookpageTest@ae45eb6]" name="Verifypagetitletest" duration-ms="2521" started-at="2018-09-05T13:20:33Z" finished-at="2018-09-05T13:20:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckboxTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.NewsletterpageTest@27efef64]" name="tearDown" is-config="true" duration-ms="450" started-at="2018-08-28T05:42:35Z" finished-at="2018-08-28T05:42:35Z">
+        </test-method> <!-- Verifypagetitletest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katena.qa.testcases.AddressbookpageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="430" started-at="2018-09-05T13:20:35Z" finished-at="2018-09-05T13:20:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.katena.qa.testcases.NewsletterpageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.katena.qa.testcases.AddressbookpageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
